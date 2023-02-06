@@ -1,5 +1,5 @@
 
-import { Container, Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardText, CardBody, CardTitle } from 'reactstrap';
 import geschl_ToString from './geschl_ToString';
 import ort_v_einToString from './ort_v_einToString';
 import mapOccupationToValue from './mapOccupationToValue';

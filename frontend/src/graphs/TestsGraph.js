@@ -1,4 +1,4 @@
-import { BarChart, AreaChart, Area, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
 import {useState} from 'react';
 import "../components/DashboardGrid.css";
 

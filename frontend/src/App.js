@@ -8,10 +8,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Analytics from './components/Analytics';
 import { PidContextProvider } from './components/contexts/TestContext';
 import { RoutesType } from './types/routes';
-import Signup from './components/Signup';
-import { Container } from "react-bootstrap"
-import { AuthProvider, currentUser } from './components/contexts/AuthContext';
-import Login from "./components/Login"
+import { AuthProvider} from './components/contexts/AuthContext';
 import PrivateRoute from './components/PrivateRoute';
 
 function App() {

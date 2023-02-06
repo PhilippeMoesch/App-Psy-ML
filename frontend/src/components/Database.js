@@ -2,16 +2,15 @@ import "survey-core/defaultV2.css";
 import React, { useContext, useState, useEffect, useMemo } from 'react'
 import * as SurveyKo from "survey-knockout";
 import axios from 'axios'
-import { Survey } from "survey-react-ui";
 import TableContainer from "./Table";
 import { Container } from 'reactstrap';
-import { Navigate, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { renderRowSubComponent } from '../helpers/renderRowSubComponent';
 import { Popup } from './Popup'
 import IconButton from '@mui/material/IconButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { PidContext, Test } from './contexts/TestContext';
+import { PidContext } from './contexts/TestContext';
 import { faCheckSquare, faTrash, faPlus, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { getBackendUrl } from '../getBackendUrl';
 import '../assets/main.css';

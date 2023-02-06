@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import '../assets/main.css';
-import Button from '@mui/material/Button';
 
 import  { useRef } from "react"
 //import { Form, Button, Card, Alert } from "react-bootstrap"
 import { useAuth } from "./contexts/AuthContext"
-import { Link, useNavigate } from "react-router-dom"
+import {  useNavigate } from "react-router-dom"
 
 function Settings() {
   const emailRef = useRef()

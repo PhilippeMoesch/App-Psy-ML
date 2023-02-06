@@ -3,16 +3,15 @@ import './Complete.css'
 import "survey-core/survey.css";
 import "survey-core/defaultV2.css";
 // import 'survey-core/survey.min.css';
-import { Survey } from "survey-react-ui";
 import * as SurveyKo from "survey-knockout";
 import React, { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
-import { BarChart, AreaChart, Area, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { BarChart, AreaChart, Area, Bar, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 import { DashboardGrid } from "./DashboardGrid";
-import { Grid, GridColumn, Header } from 'semantic-ui-react'
+import { Grid, GridColumn} from 'semantic-ui-react'
 import { Container } from "@mui/material";
 import { PidContext } from './contexts/TestContext';
-import { Dropdown, Button, Card, Forum } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import "@popperjs/core";

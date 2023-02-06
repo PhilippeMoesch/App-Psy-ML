@@ -177,7 +177,7 @@ function Prediction() {
         setH12(val)
         break;
       case "geschl":
-        (val == true) ? setGeschl(2) : setGeschl(1)
+        (val === true) ? setGeschl(2) : setGeschl(1)
         break;
       case "alter":
         setAlter(val)
@@ -218,7 +218,7 @@ function Prediction() {
         }
         break;
       case "ffe":
-        (val == true) ? setFfe(2) : setFfe(1)
+        (val === true) ? setFfe(2) : setFfe(1)
         break;
       case "ort_v_ein":
         setOrt_v_ein(val)
