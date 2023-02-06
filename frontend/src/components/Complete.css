@@ -1,0 +1,163 @@
+.glass {
+   background-color: rgba(241, 241, 241, 0.4);
+}
+
+
+.dropdown {
+  display: none;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+}
+
+li:hover .dropdown {
+  display: block;
+  position: absolute;
+  background: #000;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+ul ul a {
+  color: rgb(255, 255, 255);
+}
+
+.glass h4 {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+
+.glass h5 {
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 10px;
+}
+
+hr { 
+  margin: 1em;
+  margin-left: 15em;
+  margin-right: 15em;
+  border-width: 0.01px;
+} 
+
+p {
+  margin: 0;
+  padding: 0; 
+}
+
+.grid {
+  border-radius: 6px;
+}
+
+.glass__form {
+  position: relative;
+  display: grid;
+}
+
+.glass__form h4 {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+
+.glass__form__group {
+  margin: 10px 0;
+}
+
+.glass__form__input_3 {
+  width: 100%;
+  /*background: transparent;*/
+  text-align: center;
+  outline: none;
+  border: none;
+  padding: 0px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.glass__form__input_2 {
+  width: 100%;
+ background: transparent;
+  text-align: center;
+  outline: none;
+  border: 2px rgb(95, 95, 95);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 10%);
+  background-color: white;
+}
+
+.glass__form__input {
+  width: 100%;
+ background: transparent;
+  text-align: center;
+  outline: none;
+  border: linen;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 1px rgb(0 0 0 / 10%);
+  background-color: white;
+}
+
+.glass__form__input:focus {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.glass__form__btn {
+  background: #1d1d1d;
+  border: 1px solid #232323;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.glass__form__btn:hover {
+  background:rgb(51, 51, 51);
+  color: #ffffff;
+  transition: all ease-in-out 0.1s;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #000;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #000;
+  opacity: 1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #000;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000;
+}
+
+::placeholder {
+  /* Most modern browsers support this now. */
+  color: #000;
+}

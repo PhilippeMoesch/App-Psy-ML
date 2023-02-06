@@ -1,0 +1,33 @@
+/*nav {
+    height: 10%;  
+    width: 25%;  
+    position: relative; 
+    z-index: 1; 
+    top: 0; 
+    left: 0; 
+    background-color:#ffffff; 
+    transition: .5s ease; 
+    overflow-x: hidden; 
+    padding-top: 20px; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    
+}
+
+.body {
+    margin: 0px;
+}
+
+/*.nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: None;
+}*/
+
+.App {
+    margin-left: 20px; /* Same as the width of the sidenav */
+  }
+
